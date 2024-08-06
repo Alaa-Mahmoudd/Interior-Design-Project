@@ -1,0 +1,223 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+.sidebar {
+    margin: 0;
+    padding: 20px;
+    width: 300px;
+    background-color: #f44336 !important;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar p {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+  }
+  .sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+   
+  .sidebar a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+ 
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  div.content {
+    margin-left: 350px;
+  }
+.large-txt{
+    margin: 5px;
+}
+.large-txt p {
+   
+    color: #f44336 !important;
+    font-size: 48px;
+
+}
+.larger-txt{
+    margin: 5px;
+}
+.larger-txt p {
+    
+    font-size: 64px;
+}
+.hr {
+margin-bottom: 100px;
+margin-top: -30px;
+
+}
+hr {
+    border: 5px solid red;
+    width: 50px;
+    float: left;
+}
+.gallery{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 100px;
+}
+.half{
+    width: 50%;
+    padding: 0 8px;
+}
+.half img {
+    opacity: 0.7;
+    cursor: pointer;
+    width: 500px;
+}
+.half img:hover{
+    opacity: 1;
+}
+.services{
+    margin-bottom: 100px;
+}
+.Designers{
+    margin-bottom: 100px;
+   
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.team img {
+    width: 300px;
+
+}
+.Packages{
+    margin-bottom: 100px;
+}
+.pack-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pack-half{
+ margin: 10px;
+ padding: 20px;
+}
+li {
+  background-color:#f1f1f1 ;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  text-align: center;
+}
+li h2 {
+  font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+li span {
+padding: 100px;
+  opacity: 0.60;
+}
+.Basic{
+  color: #fff !important;
+  background-color: #616161 !important;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  font-size: 24px !important;
+  text-align: center;
+}
+.pro{
+  color: #fff !important;
+  background-color: #f44336 !important;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  font-size: 24px !important;
+  text-align: center;
+}
+.btn1{
+background-color:white;
+color:black;
+cursor: pointer;
+border: none;
+padding: 12px 24px !important;
+}
+.pack-half .btn1:hover ,
+.pack-half .btn2:hover{
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.btn2{
+  color: #fff !important;
+  background-color: #f44336 !important;
+  cursor: pointer;
+  border: none;
+  padding: 12px 24px !important;
+}
+.pack-half ul li{
+list-style: none;
+padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.contact{
+  padding-bottom: 100px;
+}
+.contact form input {
+width: 95%;
+border: 1px solid #ccc !important;
+padding: 8px;
+display: block;
+overflow: hidden;
+}
+.contact form label {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.btn {
+    display: flex;
+   justify-content: flex-start; 
+}
+#contbtn{
+    color: #fff !important;
+     cursor: pointer;
+    background-color: #f44336 !important;
+    border:none;
+    overflow: hidden;
+    padding: 12px 24px !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px;
+    display: block;
+    width: 97%;
+    text-align: center;
+
+}
+#contbtn:hover{
+    background-color:#854e4e;
+    color:black;
+}
+
